@@ -729,10 +729,11 @@ a {
 }
 
 .modal-input-form:focus {
-  border-color: #4d5ae5;
+  border-color: var(--iris);
 }
 
 .modal-svg-form {
+  fill: var(--navyblue);
   position: absolute;
   top: 50%;
   left: 16px;
